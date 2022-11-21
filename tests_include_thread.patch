@@ -1,0 +1,12 @@
+diff --git a/conformance_tests/tools/debug/src/child_debugger.cpp b/conformance_tests/tools/debug/src/child_debugger.cpp
+index 833ddaf..d7bb823 100644
+--- a/conformance_tests/tools/debug/src/child_debugger.cpp
++++ b/conformance_tests/tools/debug/src/child_debugger.cpp
+@@ -8,6 +8,7 @@
+ #include <boost/program_options.hpp>
+ 
+ #include "test_debug.hpp"
++#include <thread>
+ 
+ namespace po = boost::program_options;
+ 
